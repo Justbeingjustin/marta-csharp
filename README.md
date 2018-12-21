@@ -40,6 +40,7 @@ namespace ConsoleApp1
 ## Buses
 ```csharp
 using Marta.Services;
+
 namespace ConsoleApp1
 {
     public class Program
