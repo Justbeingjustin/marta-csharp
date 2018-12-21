@@ -49,7 +49,7 @@ namespace ConsoleApp1
             var apiKey = "API_KEY";
             IBusRepository busRepository = new BusRepository(apiKey);
             var buses = busRepository.GetBusesAsync().Result;
-            var route3Buses = busRepository.GetBusByRouteAsync(3);
+            var route3Buses = busRepository.GetBusByRouteAsync(3).Result;
         }
     }
 }
