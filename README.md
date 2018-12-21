@@ -1,6 +1,6 @@
 # marta-csharp
 
-This repository was inspired from [marta-python](https://github.com/itsmarta/marta-python).
+This repository was inspired by [marta-python](https://github.com/itsmarta/marta-python).
 
 ### Table of Contents
 **[Nuget](#nuget)**<br>
