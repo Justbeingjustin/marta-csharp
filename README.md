@@ -1,6 +1,6 @@
 # marta-csharp
 
-This repository was inspired by [marta-python](https://github.com/itsmarta/marta-python). The Metropolitan Atlanta Rapid Transit Authority (MARTA) is the principal public transport operator in the Atlanta metropolitan area. MARTA operates a network of bus routes linked to a rapid transit system consisting of 48 miles of rail track with 38 train stations. It is the eighth-largest rapid transit system in the United States by ridership.
+This repository was inspired by [marta-python](https://github.com/itsmarta/marta-python). The Metropolitan Atlanta Rapid Transit Authority (MARTA) is the principal public transport operator in the Atlanta metropolitan area. MARTA operates a network of bus routes linked to a rapid transit system consisting of 48 miles of rail track with 38 train stations. It is the eighth-largest rapid transit system in the United States by ridership. This library will get real-time data about the trains and buses.
 
 ### Table of Contents
 **[Nuget](#nuget)**<br>
