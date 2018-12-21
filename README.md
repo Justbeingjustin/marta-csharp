@@ -1,5 +1,7 @@
 # marta-csharp
 
+This repository was inspired from [marta-python](https://github.com/itsmarta/marta-python).
+
 ### Table of Contents
 **[Nuget](#nuget)**<br>
 **[Useage](#useage)**<br>
@@ -7,7 +9,6 @@
 **[Buses](#buses)**<br>
 **[Contributing](#contributing)**<br>
 
-Inspired from [marta-python](https://github.com/itsmarta/marta-python)
 
 ## Nuget
 
