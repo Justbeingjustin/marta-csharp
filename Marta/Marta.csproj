@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>marta-csharp</PackageId>
+    <Company>itsmarta</Company>
+    <Product>itsmarta</Product>
+    <Authors>Justin Gerber</Authors>
+    <Description>csharp library for accessing MARTA real-time API
+</Description>
+    <RepositoryUrl>https://github.com/Justbeingjustin/marta-csharp</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+    <PackageReference Include="RestSharp" Version="106.5.4" />
+  </ItemGroup>
+
+</Project>
