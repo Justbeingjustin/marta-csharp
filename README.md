@@ -31,7 +31,7 @@ namespace ConsoleApp1
     {
         public static void Main(string[] args)
         {
-            var apiKey = "API_KEY"
+            var apiKey = "API_KEY";
             ITrainRepository trainRepository = new TrainRepository(apiKey);
             var trains = trainRepository.GetTrainsAsync().Result;
         }
