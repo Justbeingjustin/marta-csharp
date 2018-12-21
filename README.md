@@ -7,6 +7,7 @@
 **[Buses](#buses)**<br>
 **[Contributing](#contributing)**<br>
 
+Inspired from [marta-python](https://github.com/itsmarta/marta-python)
 
 ## Nuget
 
