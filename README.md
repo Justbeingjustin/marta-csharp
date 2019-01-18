@@ -4,7 +4,7 @@ This repository was inspired by [marta-python](https://github.com/itsmarta/marta
 
 ### Table of Contents
 **[Nuget](#nuget)**<br>
-**[Useage](#useage)**<br>
+**[Usage](#usage)**<br>
 **[Tains](#trains)**<br>
 **[Buses](#buses)**<br>
 **[Contributing](#contributing)**<br>
@@ -17,7 +17,7 @@ This repository was inspired by [marta-python](https://github.com/itsmarta/marta
 ```
 
 
-## Useage
+## Usage
 Obtain an API Key [here](https://www.itsmarta.com/developer-reg-rtt.aspx).
 
 
