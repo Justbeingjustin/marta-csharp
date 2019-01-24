@@ -7,5 +7,7 @@ namespace Marta.Services
     public interface ITrainRepository
     {
         Task<List<Train>> GetTrainsAsync();
+
+        List<Train> GetTrains();
     }
 }

@@ -19,6 +19,15 @@ namespace Marta.Services
             _apiKey = apiKey;
         }
 
+        public List<Train> GetTrains()
+        {
+            var client = new RestClient(baseUrl + trainPath + "?apiKey=" + _apiKey);
+            var request = new RestRequest(Method.GET);
+            request.AddHeader(cacheControl, noCache);
+            var getTrainResponse = client.Execute(request);
+            return JsonConvert.DeserializeObject<List<Train>>(getTrainResponse.Content);
+        }
+
         public async Task<List<Train>> GetTrainsAsync()
         {
             var client = new RestClient(baseUrl + trainPath + "?apiKey=" + _apiKey);

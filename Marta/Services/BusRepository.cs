@@ -21,12 +21,30 @@ namespace Marta.Services
             _apiKey = apiKey;
         }
 
-        public async Task<List<Bus>> GetBusByRouteAsync(long route)
+        public List<Bus> GetBusesByRoute(long route)
+        {
+            var client = new RestClient(baseUrl + busRoutePath + route + "?apiKey=" + _apiKey);
+            var request = new RestRequest(Method.GET);
+            request.AddHeader(cacheControl, noCache);
+            var getTrainResponse = client.Execute(request);
+            return JsonConvert.DeserializeObject<List<Bus>>(getTrainResponse.Content);
+        }
+
+        public async Task<List<Bus>> GetBusesByRouteAsync(long route)
         {
             var client = new RestClient(baseUrl + busRoutePath + route + "?apiKey=" + _apiKey);
             var request = new RestRequest(Method.GET);
             request.AddHeader(cacheControl, noCache);
             var getTrainResponse = await client.ExecuteTaskAsync(request);
+            return JsonConvert.DeserializeObject<List<Bus>>(getTrainResponse.Content);
+        }
+
+        public List<Bus> GetBuses()
+        {
+            var client = new RestClient(baseUrl + busPath + "?apiKey=" + _apiKey);
+            var request = new RestRequest(Method.GET);
+            request.AddHeader(cacheControl, noCache);
+            var getTrainResponse = client.Execute(request);
             return JsonConvert.DeserializeObject<List<Bus>>(getTrainResponse.Content);
         }
 

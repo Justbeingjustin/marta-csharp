@@ -6,8 +6,12 @@ namespace Marta.Services
 {
     public interface IBusRepository
     {
+        List<Bus> GetBuses();
+
+        List<Bus> GetBusesByRoute(long route);
+
         Task<List<Bus>> GetBusesAsync();
 
-        Task<List<Bus>> GetBusByRouteAsync(long route);
+        Task<List<Bus>> GetBusesByRouteAsync(long route);
     }
 }
