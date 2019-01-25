@@ -6,7 +6,7 @@ This repository was inspired by [marta-python](https://github.com/itsmarta/marta
 **[Available For](#available-for)**<br>
 **[Nuget](#nuget)**<br>
 **[Usage](#usage)**<br>
-**[Tains](#trains)**<br>
+**[Trains](#trains)**<br>
 **[Buses](#buses)**<br>
 **[Contributing](#contributing)**<br>
 
